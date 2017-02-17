@@ -105,6 +105,7 @@
 		78A9B9291E57B315008F0C09 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TP;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Igor Czarev";
 				TargetAttributes = {
@@ -273,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = theoryandpractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IC.theoryandpractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = theoryandpractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IC.theoryandpractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
