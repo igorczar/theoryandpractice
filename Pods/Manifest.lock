@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - MWFeedParser (1.0.1):
+    - MWFeedParser/FeedParser (= 1.0.1)
+    - MWFeedParser/NSDate+InternetDateTime (= 1.0.1)
+    - MWFeedParser/NSString+HTML (= 1.0.1)
+  - MWFeedParser/FeedParser (1.0.1):
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+  - MWFeedParser/NSDate+InternetDateTime (1.0.1)
+  - MWFeedParser/NSString+HTML (1.0.1)
+  - NSDate+TimeAgo (1.0.6)
+  - SDWebImage+ExtensionSupport (3.7.1.2):
+    - SDWebImage+ExtensionSupport/Core (= 3.7.1.2)
+  - SDWebImage+ExtensionSupport/Core (3.7.1.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1)
+  - MWFeedParser
+  - NSDate+TimeAgo
+  - SDWebImage+ExtensionSupport (~> 3.7)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
+  NSDate+TimeAgo: 35601c619b2d59290055e4fe76e61d97677a2360
+  SDWebImage+ExtensionSupport: 72b57456f83ccd7996b258912c749a8275309b74
+
+PODFILE CHECKSUM: 26d01f7b15fce635ffc5399bc6bd7a2bcc601ad6
+
+COCOAPODS: 1.1.1
