@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html onclick="deactivateIfEventIsOutsideArticleContent(event);">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <base>
+    <title>Reader</title>
+    <style id="article-content">
+        img {
+            display: block;
+            max-width: 100% !important;
+            height: auto !important;
+            margin: 15px auto !important;
+        }
+    
+    
+    </style>
+    
+    
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="fidvids.js"></script>
+</head>
+<body style=" border-left-width: 10px; padding-left: 10px; padding-right: 10px; ">
+     <div class="mainContent" id="youtubefix">
+    @pm_content
+    </div>
+     <script>
+         $(document).ready(function(){
+                           $("#youtubefix").fitVids();
+                           });
+         </script>
+</body>

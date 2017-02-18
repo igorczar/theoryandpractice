@@ -8,26 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		137BB1512876498180BF7BD3 /* libPods-theoryandpractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D0CC08161DD0FDAD04E69A /* libPods-theoryandpractice.a */; };
+		7888F4621E57C28C009D46ED /* TPContent+CustomAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888F4611E57C28C009D46ED /* TPContent+CustomAccessors.m */; };
+		7888F4661E57C3B6009D46ED /* TPFeedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888F4651E57C3B6009D46ED /* TPFeedCollectionViewController.m */; };
+		7888F46A1E57CA54009D46ED /* Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7888F4691E57CA54009D46ED /* Model.xcdatamodel */; };
 		78A9B9361E57B315008F0C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9B9351E57B315008F0C09 /* main.m */; };
 		78A9B9391E57B315008F0C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9B9381E57B315008F0C09 /* AppDelegate.m */; };
-		78A9B93C1E57B315008F0C09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9B93B1E57B315008F0C09 /* ViewController.m */; };
 		78A9B93F1E57B315008F0C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A9B93D1E57B315008F0C09 /* Main.storyboard */; };
 		78A9B9411E57B315008F0C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A9B9401E57B315008F0C09 /* Assets.xcassets */; };
 		78A9B9441E57B315008F0C09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A9B9421E57B315008F0C09 /* LaunchScreen.storyboard */; };
+		78A9B94E1E57BE28008F0C09 /* TPAPIArticlesClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9B94D1E57BE28008F0C09 /* TPAPIArticlesClient.m */; };
+		78A9B9541E57BFA3008F0C09 /* TPCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9B9531E57BFA3008F0C09 /* TPCoreDataStack.m */; };
+		78A9B9571E57C079008F0C09 /* TPContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9B9561E57C079008F0C09 /* TPContent.m */; };
+		78F8A6D81E5849930088C400 /* TPFeedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F8A6D71E5849930088C400 /* TPFeedCollectionViewCell.m */; };
+		78F8A6DC1E584E960088C400 /* TPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F8A6DA1E584E960088C400 /* TPWebViewController.m */; };
+		78F8A6DD1E584E960088C400 /* TPWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F8A6DB1E584E960088C400 /* TPWebViewController.xib */; };
+		78F8A6E11E5851370088C400 /* fidvids.js in Resources */ = {isa = PBXBuildFile; fileRef = 78F8A6DE1E5851370088C400 /* fidvids.js */; };
+		78F8A6E21E5851370088C400 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 78F8A6DF1E5851370088C400 /* jquery.min.js */; };
+		78F8A6E31E5851370088C400 /* reader.html in Resources */ = {isa = PBXBuildFile; fileRef = 78F8A6E01E5851370088C400 /* reader.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		73D0CC08161DD0FDAD04E69A /* libPods-theoryandpractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-theoryandpractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7888F4601E57C28C009D46ED /* TPContent+CustomAccessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TPContent+CustomAccessors.h"; sourceTree = "<group>"; };
+		7888F4611E57C28C009D46ED /* TPContent+CustomAccessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TPContent+CustomAccessors.m"; sourceTree = "<group>"; };
+		7888F4641E57C3B6009D46ED /* TPFeedCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPFeedCollectionViewController.h; sourceTree = "<group>"; };
+		7888F4651E57C3B6009D46ED /* TPFeedCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPFeedCollectionViewController.m; sourceTree = "<group>"; };
+		7888F4691E57CA54009D46ED /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		78A9B9311E57B315008F0C09 /* theoryandpractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theoryandpractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A9B9351E57B315008F0C09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78A9B9371E57B315008F0C09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78A9B9381E57B315008F0C09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78A9B93A1E57B315008F0C09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78A9B93B1E57B315008F0C09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78A9B93E1E57B315008F0C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78A9B9401E57B315008F0C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78A9B9431E57B315008F0C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78A9B9451E57B315008F0C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A9B94C1E57BE28008F0C09 /* TPAPIArticlesClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPAPIArticlesClient.h; sourceTree = "<group>"; };
+		78A9B94D1E57BE28008F0C09 /* TPAPIArticlesClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPAPIArticlesClient.m; sourceTree = "<group>"; };
+		78A9B9521E57BFA3008F0C09 /* TPCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCoreDataStack.h; sourceTree = "<group>"; };
+		78A9B9531E57BFA3008F0C09 /* TPCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCoreDataStack.m; sourceTree = "<group>"; };
+		78A9B9551E57C079008F0C09 /* TPContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPContent.h; sourceTree = "<group>"; };
+		78A9B9561E57C079008F0C09 /* TPContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPContent.m; sourceTree = "<group>"; };
+		78F8A6D61E5849930088C400 /* TPFeedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPFeedCollectionViewCell.h; sourceTree = "<group>"; };
+		78F8A6D71E5849930088C400 /* TPFeedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPFeedCollectionViewCell.m; sourceTree = "<group>"; };
+		78F8A6D91E584E960088C400 /* TPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPWebViewController.h; sourceTree = "<group>"; };
+		78F8A6DA1E584E960088C400 /* TPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPWebViewController.m; sourceTree = "<group>"; };
+		78F8A6DB1E584E960088C400 /* TPWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPWebViewController.xib; sourceTree = "<group>"; };
+		78F8A6DE1E5851370088C400 /* fidvids.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fidvids.js; sourceTree = "<group>"; };
+		78F8A6DF1E5851370088C400 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		78F8A6E01E5851370088C400 /* reader.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reader.html; sourceTree = "<group>"; };
 		A6BEE451EEDF9CCF14DE7943 /* Pods-theoryandpractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theoryandpractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-theoryandpractice/Pods-theoryandpractice.release.xcconfig"; sourceTree = "<group>"; };
 		DF0B0BD5577159502F115D8C /* Pods-theoryandpractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theoryandpractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-theoryandpractice/Pods-theoryandpractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +72,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7888F4631E57C399009D46ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7888F4641E57C3B6009D46ED /* TPFeedCollectionViewController.h */,
+				7888F4651E57C3B6009D46ED /* TPFeedCollectionViewController.m */,
+				78F8A6D91E584E960088C400 /* TPWebViewController.h */,
+				78F8A6DA1E584E960088C400 /* TPWebViewController.m */,
+				78F8A6DB1E584E960088C400 /* TPWebViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		78A9B9281E57B315008F0C09 = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +105,12 @@
 		78A9B9331E57B315008F0C09 /* theoryandpractice */ = {
 			isa = PBXGroup;
 			children = (
+				78F8A6D51E5849720088C400 /* View */,
+				7888F4631E57C399009D46ED /* Controllers */,
+				78A9B94F1E57BF57008F0C09 /* Model */,
+				78A9B94B1E57BE15008F0C09 /* Networking */,
 				78A9B9371E57B315008F0C09 /* AppDelegate.h */,
 				78A9B9381E57B315008F0C09 /* AppDelegate.m */,
-				78A9B93A1E57B315008F0C09 /* ViewController.h */,
-				78A9B93B1E57B315008F0C09 /* ViewController.m */,
 				78A9B93D1E57B315008F0C09 /* Main.storyboard */,
 				78A9B9401E57B315008F0C09 /* Assets.xcassets */,
 				78A9B9421E57B315008F0C09 /* LaunchScreen.storyboard */,
@@ -81,9 +123,44 @@
 		78A9B9341E57B315008F0C09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78F8A6DE1E5851370088C400 /* fidvids.js */,
+				78F8A6DF1E5851370088C400 /* jquery.min.js */,
+				78F8A6E01E5851370088C400 /* reader.html */,
 				78A9B9351E57B315008F0C09 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78A9B94B1E57BE15008F0C09 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				78A9B94C1E57BE28008F0C09 /* TPAPIArticlesClient.h */,
+				78A9B94D1E57BE28008F0C09 /* TPAPIArticlesClient.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		78A9B94F1E57BF57008F0C09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7888F4691E57CA54009D46ED /* Model.xcdatamodel */,
+				78A9B9521E57BFA3008F0C09 /* TPCoreDataStack.h */,
+				78A9B9531E57BFA3008F0C09 /* TPCoreDataStack.m */,
+				78A9B9551E57C079008F0C09 /* TPContent.h */,
+				7888F4601E57C28C009D46ED /* TPContent+CustomAccessors.h */,
+				7888F4611E57C28C009D46ED /* TPContent+CustomAccessors.m */,
+				78A9B9561E57C079008F0C09 /* TPContent.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78F8A6D51E5849720088C400 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78F8A6D61E5849930088C400 /* TPFeedCollectionViewCell.h */,
+				78F8A6D71E5849930088C400 /* TPFeedCollectionViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AB7540605BB86CA985EFF238 /* Pods */ = {
@@ -139,6 +216,11 @@
 					78A9B9301E57B315008F0C09 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -166,8 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A9B9441E57B315008F0C09 /* LaunchScreen.storyboard in Resources */,
+				78F8A6DD1E584E960088C400 /* TPWebViewController.xib in Resources */,
+				78F8A6E11E5851370088C400 /* fidvids.js in Resources */,
 				78A9B9411E57B315008F0C09 /* Assets.xcassets in Resources */,
+				78F8A6E21E5851370088C400 /* jquery.min.js in Resources */,
 				78A9B93F1E57B315008F0C09 /* Main.storyboard in Resources */,
+				78F8A6E31E5851370088C400 /* reader.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +312,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A9B93C1E57B315008F0C09 /* ViewController.m in Sources */,
+				78F8A6D81E5849930088C400 /* TPFeedCollectionViewCell.m in Sources */,
 				78A9B9391E57B315008F0C09 /* AppDelegate.m in Sources */,
+				78A9B9541E57BFA3008F0C09 /* TPCoreDataStack.m in Sources */,
+				78F8A6DC1E584E960088C400 /* TPWebViewController.m in Sources */,
 				78A9B9361E57B315008F0C09 /* main.m in Sources */,
+				78A9B9571E57C079008F0C09 /* TPContent.m in Sources */,
+				7888F4661E57C3B6009D46ED /* TPFeedCollectionViewController.m in Sources */,
+				7888F4621E57C28C009D46ED /* TPContent+CustomAccessors.m in Sources */,
+				7888F46A1E57CA54009D46ED /* Model.xcdatamodel in Sources */,
+				78A9B94E1E57BE28008F0C09 /* TPAPIArticlesClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +482,7 @@
 				78A9B94A1E57B315008F0C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
